@@ -1,0 +1,52 @@
+{
+  "name": "shinobi-black-theme",
+  "displayName": "Shinobi Black",
+  "description": "A premium OLED black VS Code theme with vibrant syntax highlighting. Handcrafted for long coding sessions.",
+  "version": "1.0.0",
+  "publisher": "sanjaybaskar",
+  "license": "MIT",
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#000000",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/masked-shinobi/shinobi-black-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/masked-shinobi/shinobi-black-theme/issues"
+  },
+  "homepage": "https://github.com/masked-shinobi/shinobi-black-theme#readme",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "dark theme",
+    "black",
+    "oled",
+    "amoled",
+    "shinobi",
+    "syntax highlighting",
+    "color theme",
+    "cpp",
+    "python",
+    "javascript",
+    "typescript",
+    "java"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Shinobi Black",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Shinobi Black-color-theme.json"
+      }
+    ]
+  }
+}
